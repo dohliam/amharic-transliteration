@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <title>Amharic transliteration - Converter for Amharic text</title>
+    <style type="text/css">
+      p {
+        width: 30em;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://dohliam.github.io/dropin-minimal-css/vendor/skeleton-framework.min.css"/>
+    <script src="transliterate.js" type="text/javascript"></script>
+    <script src="am-table.js" type="text/javascript"></script>
+  </head>
+  <body onload="window.textbox.focus()">
+    <h2>Amharic transliteration</h2>
+    <p>This converter will transliterate Amharic text into Latin characters. To use, simply enter some text in Amharic into the <strong>Input</strong> box and press the <strong>Convert</strong> button. The transliterated text will appear in the <strong>Output</strong> box below.</p>
+    <textarea id=textbox cols="50" rows="10" placeholder="Input"></textarea>
+    <br><button type="button" onclick="convert_button()">Convert</button>
+    <br>
+    <textarea id=output readonly="true" cols="50" rows="10" placeholder="Output"></textarea>
+  </body>
+</html>
