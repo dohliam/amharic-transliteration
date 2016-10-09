@@ -2,7 +2,7 @@
 
 A JavaScript-based converter for transliterating Amharic text into Latin characters.
 
-[Online demo](https://dohliam.github.io/amharic-transliteration).
+[Online demo](http://dohliam.github.io/transliteration/amharic/).
 
 ## Usage
 
