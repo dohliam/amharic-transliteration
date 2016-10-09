@@ -15,3 +15,5 @@ Based on the transliteration system described [here](https://en.wikipedia.org/wi
 ## LICENSE
 
 MIT.
+
+[github-corners](https://github.com/tholman/github-corners) by @tholman
