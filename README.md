@@ -12,7 +12,7 @@ Based on the transliteration system described [here](https://en.wikipedia.org/wi
 
 ## Demo
 
-[Online demo](http://dohliam.github.io/transliteration/amharic/).
+[Online demo](https://dohliam.github.io/transliteration/amharic/).
 
 Screenshot:
 
