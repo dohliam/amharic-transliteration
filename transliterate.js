@@ -18,6 +18,7 @@ function transliterate(word) {
 
 function convert_button() {
   word = window.textbox.value;
+  converted = transliterate(word);
 
-  window.output.innerHTML = transliterate(word)
+  window.output.innerHTML = converted.replace(/ə([\s\.\?\!,:;"'›\)])/g, "$1").replace(/ə\n/g, "\n").replace(/ə$/g, "");
 }
